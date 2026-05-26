@@ -1,3 +1,127 @@
 body {
-    background-color: aquamarine;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+.cabecalho {
+  background-color: #d35400;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu-principal ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-principal ul li {
+  margin-left: 20px;
+}
+
+.menu-principal ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.destaque {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.destaque img {
+  width: 80%;
+  border-radius: 8px;
+}
+
+.botao {
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lista-receitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.receita {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.receita img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.formulario {
+  background-color: #fbeee0;
+  padding: 20px;
+  text-align: center;
+}
+
+.formulario form {
+  display: inline-block;
+  text-align: left;
+}
+
+.formulario input {
+  display: block;
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button {
+  background-color: #d35400;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.rodape {
+  background-color: #d35400;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.redes-sociais a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.receita, .formulario, .cabecalho {
+  margin: 10px;
+  padding: 10px;
+  position: relative;
 }
