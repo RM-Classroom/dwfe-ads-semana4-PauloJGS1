@@ -23,4 +23,4 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Print da home-page criada
 
-![Home‑page](public/Print Home‑Page.jpeg)
+![Home‑page]()
